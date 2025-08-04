@@ -73,6 +73,6 @@ float segundaarea, segundopib;
     printf("Área: %f \n", segundaarea);  
     printf("PIB: %f bilhões de reais.\n", segundopib);
     printf("Pontos Turisticos: %d \n", segundoponto);
-
+//teste
     return 0;
 }
