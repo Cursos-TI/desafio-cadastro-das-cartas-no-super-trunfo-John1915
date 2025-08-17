@@ -96,16 +96,52 @@ unsigned long int segundapopulacao;
     superpoder2 = segundapopulacao + segundaarea + segundopib + percapita2 + segundadensidade;
     printf("Super Poder de: %f\n", superpoder2);
 
-    // Comparação das cartas 1 e 2 (se for 1 carta 1 ganha se 0 carta 2);
+    // Comparação das cartas 
 
-    printf("*** COMPARAÇÃO DE CARTAS*** \n");
-    printf("População: %d\n", populacao > segundapopulacao);
-    printf("Área: %d\n", area > segundaarea);
-    printf("PIB: %d\n", pib > segundopib);
-    printf("P turistico: %d\n", pontosturisticos > segundoponto);
-    printf("Densidade: %d\n", densidade < segundadensidade);
-    printf("PIB per Capita: %d\n", percapita > percapita2);
-    printf("Super Poder: %d", superpoder > superpoder2);
+    printf("*** HORA DE VER QUEM GANHOU *** \n");
+
+     if (populacao > segundapopulacao)
+    {
+        printf("Carta 1 ganhou!\n");
+    }
+    else
+    {
+        printf("carta 2 ganhou!\n");
+    }
+    if (area > segundaarea)
+    {
+        printf("Carta 1 ganhou!\n");
+    }
+    else
+    {
+        printf("carta 2 ganhou!\n");
+    }
+    if (pib > segundopib)
+    {
+        printf("Carta 1 ganhou!\n");
+    }
+    else
+    {
+        printf("carta 2 ganhou!\n");
+    }
+    if (pontosturisticos > segundoponto)
+    {
+        printf("Carta 1 ganhou!\n");
+    }
+
+    else
+    {
+        printf("carta 2 ganhou!\n");
+    }
+    if (densidade < segundadensidade)
+    {
+        printf("Carta 1 ganhou!\n");
+    }
+    else
+    {
+        printf("carta 2 ganhou!\n");
+    }
+    
 
     return 0;
 }
